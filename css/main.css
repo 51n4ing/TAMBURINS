@@ -1,0 +1,766 @@
+.wrap {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+header {
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.logo {
+
+    width: 241px;
+    height: 100%;
+    background-image: url(../img/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo a {
+
+    width: 100%;
+    height: 100%;
+}
+
+.gnb {
+
+    height: 100%;
+    width: 800px;
+}
+
+.gnb .nav {
+
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    height: 100%;
+    
+    
+}
+    
+
+.gnb .nav li {
+
+    
+    width: 20%;
+    height: 100%;
+    line-height: 80px;
+    text-align: center;
+    
+}
+
+.gnb .nav li a {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.side_menu .side_icon {
+
+    display: flex;
+}
+
+.side_menu .side_icon li {
+
+    width: 27px;
+    height: 27px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    margin-right: 34px;
+}
+
+.side_menu .side_icon li:nth-child(1) {
+
+    background-image: url(../img/hd_side_search.svg);
+}
+
+.side_menu .side_icon li:nth-child(2) {
+
+    background-image: url(../img/hd_side_user.svg);
+}
+
+.side_menu .side_icon li:nth-child(3) {
+
+    background-image: url(../img/hd_side_shopping.svg);
+    margin-right: 0;
+}
+
+.side_menu .side_icon li:nth-child(4) {
+
+    background-image: url(../img/hd_ham.svg);
+    display: none;
+    margin-right: 0;
+
+}
+
+/* 헤더 끝 */
+
+.main {
+
+    padding: 0;
+}
+
+.main video {
+
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.main_mo {
+
+    display: none;
+}
+
+/* 메인 끝 */
+
+.sec_2 .sec_con {
+
+    width: 100%;
+    display: flex;
+    height: 700px;
+}
+
+.sec_2 .container {
+
+    padding: 90px 0;
+}
+
+.sec_2_main {
+
+    width: 49%;
+    height: 100%;
+
+    background-image: url(../img/sec_2_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-right: 30px;
+
+}
+
+.sec_con {
+    
+    margin-top: 65px;
+}
+
+.sec_2_con {
+
+    width: 51%;
+}
+
+.sec_2_con_list {
+
+    height: 100%;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sec_2_con_list .sec_2_con_list_li {
+
+    width: 48%;
+    
+}
+
+
+.sec_2_con_list li .list_img {
+    width: 100%;
+    height: 260px;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.sec_2_con_list li:nth-child(1) .list_img {
+
+    background-image: url(../img/sec2_CarDiffuser_Bigarico_1.jpg);
+}
+
+.sec_2_con_list li:nth-child(2) .list_img {
+
+    background-image: url(../img/sec2_CarDiffuser_BlueForest_1.jpg);
+}
+
+.sec_2_con_list li:nth-child(3) .list_img {
+
+    background-image: url(../img/sec2_CarDiffuser_Lilycoco_1.jpg);
+}
+
+.sec_2_con_list li:nth-child(4) .list_img {
+
+    background-image: url(../img/sec2_CarDiffuser_Chamo_1.jpg);
+}
+
+.sec2_list_text {
+
+    margin-top: 10px;
+}
+
+.sec2_list_text h3 {
+
+    font-size: 20px;
+    line-height: 24px;
+}
+
+ .tag {
+
+    font-size: 16px;
+    line-height: 20px;
+    color: #999999;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 300;
+
+    margin-top: 6px;
+}
+
+.sec2_list_text .tag li {
+
+    margin-right: 8px;
+}
+
+/* 섹션2 끝 */
+
+.sec_3 .container {
+
+    max-width: 1920px;
+    position: relative;
+    align-items: flex-start;
+    
+}
+
+.sec3_con_img {
+
+    width: 100%;
+    height: 337px;
+    background-image: url(../img/sec3_perfume_1.jpg);
+    background-size: 113% auto;
+    background-repeat: no-repeat;
+    background-position: 0% 30%;
+    
+}
+
+.sec3_con_title {
+
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 0 210px;
+    
+}
+
+.sec3_con_title h3 {
+
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.sec3_con_title h4 {
+
+    font-size: 16px;
+    line-height: 20px;
+    color: #666666;
+    margin-bottom: 50px;
+    font-weight: 600;
+
+}
+
+.sec3_con_title p {
+
+    font-size: 18px;
+    line-height: 24px;
+    color: #8E8E8E;
+}
+
+/* 섹션3 끝 */
+
+.sec_4, .sec_5 {
+
+    padding: 110px 0 180px;
+}
+
+.sec_4 .container,.sec_5 .container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 1920px;
+}
+
+.sec_4 .sec_con, .sec_5 .sec_con {
+
+    height: 100%;
+    margin-top: 0;
+    position: relative;
+
+}
+
+.sec_silde_con {
+
+    max-width: 1384px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.sec_4_con_list, .sec_5_con_list  {
+
+    display: flex;
+    width: 2331px;
+    position: relative;
+    
+}
+
+.sec_4_con_list li, .sec_5_con_list li {
+
+    margin-right: 21px;
+    width: 31.11% !important;
+}
+
+.sec_4_con_list li .tag li,.sec_5_con_list li .tag li {
+
+    width: unset !important;
+    margin-right: 10px;
+}
+
+.sec_4_con_img,.sec_5_con_img  {
+
+    width: 100%;
+    height: 423px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.sec_4_con_list li:nth-child(1) .sec_4_con_img {
+
+    background-image: url(../img/sec4_perfume_woodsalt.jpg);
+    background-position: 0 -112px;
+}
+
+.sec_4_con_list li:nth-child(2) .sec_4_con_img {
+
+    background-image: url(../img/sec4_perfume_pumkini.jpg);
+    background-position: 0 -47px;
+}
+
+.sec_4_con_list li:nth-child(3) .sec_4_con_img {
+
+    background-image: url(../img/sec4_perfume_Egg_LateAutumn.png);
+    background-position: 0 -114px;
+}
+
+.sec_4_con_list li:nth-child(4) .sec_4_con_img {
+
+    background-image: url(../img/sec4_perfume_Egg_holymetal.jpg);
+    background-position: 0 -145px;
+}
+
+
+.sec_4 .sec_title, .sec_5 .sec_title {
+
+    width: 100%;
+    padding: 0 20px 0 150px;;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.sec_silde_con_text {
+
+    margin-top: 20px;
+}
+
+.sec_silde_con_text h2 {
+
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.slide_icon {
+
+    width: 45px;
+    height: 45px;
+    background-color: #ffffffa3;
+    border-radius: 50%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.slide_icon:nth-child(2) {
+
+    position: relative;
+    left: 20px;
+}
+
+.slide {
+    
+    max-width: 1380px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    z-index: 99;
+    top: 50%;
+    left: -80px;
+    transform: translateY(-50%);
+    
+}
+
+.slide_icon:nth-child(1) {
+
+    background-image: url(../img/sec4_prev.svg);
+}
+
+.slide_icon:nth-child(2) {
+
+    background-image: url(../img/sec4_next.svg);
+}
+
+/* 섹션4 끝 */
+
+.sec_5 {
+
+    background-color: #F8F6F4;
+}
+
+.sec_5_con_list li:nth-child(1) .sec_5_con_img {
+
+    background-image: url(../img/sec5_room_meok.jpg);
+    
+}
+
+.sec_5_con_list li:nth-child(2) .sec_5_con_img {
+
+    background-image: url(../img/sec5_room_mumbud.jpg);
+    
+}
+
+.sec_5_con_list li:nth-child(3) .sec_5_con_img {
+
+    background-image: url(../img/sec5_room_papyrus.jpg);
+    
+}
+
+.sec_5_con_list li:nth-child(4) .sec_5_con_img {
+
+    background-image: url(../img/sec5_room_pinenest.jpg);
+    
+}
+
+/* 섹션5 끝 */
+
+.sec_6 .container {
+
+    padding: 130px 0;
+}
+
+.sec_6 .sec_6_con {
+
+    width: 100%;
+    
+}
+
+
+.sec_6_con_list {
+
+    display: flex;
+    justify-content: center;
+    margin: 65px auto;
+    width: 90%;
+
+}
+.sec_6_con_list li {
+
+    width: 25%;
+    
+}
+.sec_6_con_list li a {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.sec_6_con_list li:nth-child(4) {
+
+    margin-right: 0;
+}
+
+.sec_6_con_list li h3 {
+
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+.sec_6_list_img {
+
+    width: 177px;
+    height: 177px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sec_6_con_list li:nth-child(1) .sec_6_list_img {
+
+    background-image: url(../img/sec6_perfume.jpg);
+}
+
+.sec_6_con_list li:nth-child(2) .sec_6_list_img {
+
+    background-image: url(../img/sec6_hand.jpg);
+}
+
+.sec_6_con_list li:nth-child(3) .sec_6_list_img {
+
+    background-image: url(../img/sec6_body.jpg);
+}
+
+
+.sec_6_con_list li:nth-child(4) .sec_6_list_img {
+
+    background-image: url(../img/sec6_candle.jpg);
+}
+
+/* 섹션6 끝 */
+
+.sec_7 {
+
+    
+    background-color: #F8F6F4;
+}
+
+.sec_7 .container {
+
+    padding: 130px 0 115px;
+}
+
+.sec_7 .sec_title {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec_7 .sec_title p {
+
+    font-size: 20px;
+    color: #666666;
+
+}
+
+.sec_7 .sec_con {
+
+    width: 100%;
+}
+
+ .sec_7_con, .sec_7_con_list{
+
+    width: 100%;
+    height: 295.5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sec_7_con li {
+
+    width: 19.7%;
+    height: 100%;
+    
+}
+
+
+.sec_7_con_list li {
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec_7_con_list li:nth-child(1) {
+
+    background-image: url(../img/sec7_insta_1.jpg);
+}
+
+.sec_7_con_list li:nth-child(2) {
+
+    background-image: url(../img/sec7_insta_2.jpg);
+}
+
+.sec_7_con_list li:nth-child(3) {
+
+    background-image: url(../img/sec7_insta_3.jpg);
+}
+
+.sec_7_con_list li:nth-child(4) {
+
+    background-image: url(../img/sec7_insta_4.jpg);
+    background-size: 120%;
+}
+
+.sec_7_con_list li:nth-child(5) {
+
+    background-image: url(../img/sec7_insta_5.jpg);
+    background-size: 120%;
+}
+
+
+/* 섹션7 끝 */
+
+    .footer_inner {
+
+        display: flex;
+        position: relative;
+        padding: 35px 0;
+        font-size: 13px;
+        color: #666666;
+    }
+
+    .footer_inner h3 {
+        
+        font-size: 13px;
+    
+    }
+
+    .footer_logo {
+
+        width: 180px;
+        height: 23px;
+        background-position: center;
+        background-image: url(../img/logo.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 85px;
+    }
+
+    .footer_left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_info p {
+
+        line-height: 25px;
+
+    }
+
+    .footer_info p:nth-child(2) {
+
+        margin-top: 30px;
+    }
+
+    .footer_info p span {
+
+        font-weight: 600;
+    }
+
+    .footer_consumer {
+
+        margin-bottom: 50px;
+    }
+
+    .consumer_list {
+
+        display: flex;
+
+    }
+
+    .consumer_list li {
+
+        margin-right: 30px;
+    }
+
+    .consumer_list li:nth-child(1) {
+
+        font-weight: 600;
+    }
+
+
+    .use_list {
+
+        display: flex;
+    }
+
+    .use_list li {
+
+        margin-left: 30px;
+    }
+
+    .footer_right {
+
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding-bottom: 35px;
+
+    }
+
+    .sns_list {
+
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 15px;
+    }
+
+    .sns_list li {
+
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+    }
+
+    .sns_list li:nth-child(1) {
+
+        background-image: url(../img/footer_kakao.svg);
+    }
+
+    .sns_list li:nth-child(2) {
+
+        background-image: url(../img/footer_insta.svg);
+    }
+
+    .sns_list li:nth-child(3) {
+
+        background-image: url(../img/footer_facebook.svg);
+    }
+
+    .sns_list li:nth-child(4) {
+
+        background-image: url(../img/footer_weibo.svg);
+    }
+
+
+

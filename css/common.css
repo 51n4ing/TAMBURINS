@@ -1,0 +1,61 @@
+header, section, footer {
+
+    width: 100%;
+
+}
+
+header, footer {
+
+    padding: 0 60px;
+
+}
+
+
+.container {
+
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec_title {
+
+    margin: 0 auto;
+}
+
+.sec_title h2 {
+
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+
+}
+
+.mo {
+
+    display: none;
+}
+
+@media screen and (max-width: 1500px) {
+
+    header, section, footer {
+
+        padding: 0 20px;
+
+    }
+
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    .sec_title h2 {
+
+        font-size: 30px;
+        padding: 0 20px;
+        text-align: center;
+
+    }
+}

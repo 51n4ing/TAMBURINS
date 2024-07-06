@@ -1,0 +1,33 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: #181818;
+    display: block;
+}
+
+img {
+
+    display: block;
+    border: 0;
+
+}
+
+body {
+
+    color: #181818;
+    font-family: 'pretendard';
+}
